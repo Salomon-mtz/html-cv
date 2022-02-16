@@ -1,0 +1,76 @@
+.fratellis{
+    max-width: 500px;
+}
+
+.pasumecha{
+    max-width: 500px;
+}
+
+footer{
+    background-color: gray;
+    color: white;
+}
+
+.linkedin{
+    padding: 0px 300px 0px 70px;
+}
+
+.copy{
+    padding: 0px 450px 0px 450px;
+}
+
+.github{
+    padding: 0px 70px 0px 300px;
+}
+
+.skills{
+    text-align: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.html{
+    width: 80%;
+    background-color: rgb(43, 255, 0);
+}
+
+.c{
+    width: 60%;
+    background-color: red;
+}
+
+.css{
+    width: 50%;
+    background-color: blue;
+}
+
+.python{
+    width: 50%;
+    background-color: violet;
+}
+
+.js{
+    width: 20%;
+    background-color: yellow;
+}
+
+.kotlin{
+    width: 10%;
+    background-color: purple;
+}
+
+.español{
+    width: 100%;
+    background-color: aqua;
+}
+
+.ingles{
+    width: 95%;
+    background-color: aquamarine;
+}
+
+.aleman{
+    width: 70%;
+    background-color: rgb(170, 255, 227);
+}
