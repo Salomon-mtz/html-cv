@@ -4,193 +4,213 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Elí Martínez CV</title>
-    <link href="AboutPageAssets/styles/aboutPageStyle.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./CSS/index.css">
   </head>
 
   <body>
-    <header>
+    <header class="container">
       <section class="profileHeader">
         <h1>Elí Salomón Martínez Hernández</h1>
-        <h3>Ingeniero en Tecnologías Computacionales</h3>
-        <hr>
-        <p>Estudiante de cuarto semestre de Ingeniería en Tecnologías Computacionales apasionado por la computación y la tecnología. 
-          He participado en eventos de ingeniería en computación y concursos de programaión conocidos como Hackathon. Además he tomado 
-          cursos de aplicaciones móviles por medio de Google Actívate y Coursera. Asimismo he participado en concursos de fotografía y
-          diseño de logotipos organizados por el Tecnológico de Monterrey. En los cuales he sido ganador en 1 ocasión para el área de fotografía 
-          y 2 para la de diseño. Desde muy pequeño he trabajado en los negocios familiares incluyendo restaurantes, fuentes de sodas, despacho fiscal 
-          contable administrativo y legal, inmobiliaria también del grupo familiar y fábrica de zapatos.</p>
+        <h3 class="profileSubHeader">Ingeniero en Tecnologías Computacionales</h3>
+        <table class="profile-table" >
+          <tr>
+            <td>
+              <img src="profile.jpg" class="profile" alt="profile photo">
+            </td>
+            <td>
+              <p class="story">Soy un estudiante de cuarto semestre de Ingeniería en Tecnologías Computacionales 
+                apasionado por la computación y la tecnología. He participado en eventos de ingeniería en 
+                computación y concursos de programaión conocidos como Hackathon. Además he tomado cursos de 
+                aplicaciones móviles por medio de Google Actívate y Coursera. Asimismo he participado en concursos 
+                de fotografía y diseño de logotipos organizados por el Tecnológico de Monterrey. En los cuales 
+                he sido ganador en 1 ocasión para el área de fotografía y 2 para la de diseño. Desde muy pequeño 
+                he trabajado en los negocios familiares incluyendo restaurantes, fuentes de sodas, despacho fiscal 
+                contable administrativo y legal, inmobiliaria también del grupo familiar y fábrica de zapatos.</p>
+            </td>
+          </tr>
+        </table>
       </section>
     </header>
       
     <div class="container">
-      <section class="PrimaryMainContent"> 
+      <section class="main"> 
+        <h2 class="title">Educación</h2>
+        <hr>
         <section class="education">
-          <h2 class="sectionTitle">Educación</h2>
-          <hr class="sectionTitleRule">
-          <div class="section1Content">
-            <p>Preparatoria: <span>ITESM CCM Prepa TEC Multicultural</span></p>
-            <p>Universidad: <span>ITESM CCM ITC TEC21</span></p>
+          <div class="content">
+            <h3 class="header-edu">Preparatoria: <span class="header-edu-2">ITESM CCM Prepa TEC Multicultural</span></h3>
+            <h3 class="header-edu">Universidad: <span class="header-edu-2">ITESM CCM ITC TEC21</span></h3>
           </div>
         </section>
         
+        <h2 class="title">Lenguajes de Programación</h2>
+        <hr>
         <section class="languages">
-          <h2 class="sectionTitle">Lenguajes de Programación</h2>
-          <hr class="sectionTitleRule">
-          <div class="section1Content">
-
-            <p>HTML</p>
-            <div class="container">
+          <div class="content">
+            <p class="text">HTML</p>
+            <div class="container-section">
               <div class="skills html">80%</div>
             </div>
 
-            <p>C++</p>
-            <div class="container">
+            <p class="text">C++</p>
+            <div class="container-section">
               <div class="skills c">60%</div>
             </div>
 
-            <p>CSS</p>
-            <div class="container">
+            <p class="text">CSS</p>
+            <div class="container-section">
               <div class="skills css">50%</div>
             </div>
 
-            <p>Python</p>
-            <div class="container">
+            <p class="text">Python</p>
+            <div class="container-section">
               <div class="skills python">50%</div>
             </div>
 
-            <p>JavaScript</p>
-            <div class="container">
+            <p class="text">JavaScript</p>
+            <div class="container-section">
               <div class="skills js">20%</div>
             </div>
 
-            <p>Kotlin</p>
-            <div class="container">
+            <p class="text">Kotlin</p>
+            <div class="container-section">
               <div class="skills kotlin">10%</div>
             </div>
 
           </div>
         </section>
-      </section>
         
-      <section class="secondMainContent">
+        <h2 class="title">Experiencia Laboral</h2>
+        <hr>
         <section class="portafolio">
-          <h2 class="sectionTitle">Experiencia Laboral</h2>
-          <hr class="sectionTitleRule">
           <article class="fratellis">
-            <h3 class="sectionContentTitle"> 
+            <p class="text"> 
               Fratelli’s Fuente de Sodas y Helados
-            </h3>
-            <h4 class="sectionContentSubTitle">Marzo 2016 &#45; ACTUAL</h4>
+            </p>
+            <p class="sub-text">Marzo 2016 &#45; ACTUAL</p>
             <ul>
-              <li>Preparación de bebidas calientes y frías.</li>
-              <li>Servicio de helados y pasteles.</li>
-              <li>Atención al cliente.</li>
-              <li>Diseño de menús y contenido para redes sociales.</li>
-              <li>Diseño de página web.</li>
+              <li class="sub-text">Preparación de bebidas calientes y frías.</li>
+              <li class="sub-text">Servicio de helados y pasteles.</li>
+              <li class="sub-text">Atención al cliente.</li>
+              <li class="sub-text">Diseño de menús y contenido para redes sociales.</li>
+              <li class="sub-text">Diseño de página web.</li>
             </ul> 
             <img src="fratellis.svg" class="fratellis" alt="logo">
           </article>
 
           <article class="pasumecha">
-            <h3 class="sectionContentTitle"> 
+            <p class="text"> 
               Restaurante Pasumecha
-            </h3>
-            <h4 class="sectionContentSubTitle">Mayo 2019 &#45; Agosto 2019</h4>
+            </p>
+            <p class="sub-text">Mayo 2019 &#45; Agosto 2019</p>
             <ul>
-              <li>Supervision de servicio en mesas.</li>
-              <li>Limpieza de mesas.</li>
-              <li>Toma de pedidos.</li>
-              <li>Preparación de cocteles de frutas y bebidas.</li>
+              <li class="sub-text">Supervision de servicio en mesas.</li>
+              <li class="sub-text">Limpieza de mesas.</li>
+              <li class="sub-text">Toma de pedidos.</li>
+              <li class="sub-text">Preparación de cocteles de frutas y bebidas.</li>
             </ul> 
             <img src="pasumecha.svg" class="pasumecha" alt="logo">
           </article>
 
           <article class="section2Content">
-            <h3 class="sectionContentTitle"> 
+            <p class="text"> 
               Contadores Martínez Carreño y Asociados
-            </h3>
-            <h4 class="sectionContentSubTitle">Mayo 2018 &#45; Agosto 2018</h4>
+            </p>
+            <p class="sub-text">Mayo 2018 &#45; Agosto 2018</p>
             <ul>
-              <li>Descarga de comprobantes fiscales.</li>
-              <li>Captura de facturas en el software de Aspel COI.</li>
-              <li>Atención a clientes en área de copias.</li>
+              <li class="sub-text">Descarga de comprobantes fiscales.</li>
+              <li class="sub-text">Captura de facturas en el software de Aspel COI.</li>
+              <li class="sub-text">Atención a clientes en área de copias.</li>
             </ul> 
-            <img src="mg.jpg" class="mg" alt="logo">
+            <img src="#" class="mg" alt="logo">
           </article>
         </section>
-      </section>
 
-      <section class="ThirdMainContent"> 
+        <h2 class="title">Idiomas</h2>
+        <hr>
         <section class="languages">
-          <h2 class="sectionTitle">Idiomas</h2>
-          <hr class="sectionTitleRule">
-          <div class="section1Content">
-            <h3>Español</h3>
-            <div class="container">
+          <div class="content">
+            <p class="text">Español</p>
+            <div class="container-section">
               <div class="skills español">100%</div>
             </div>
 
-            <h3>Inglés</h3>
-            <div class="container">
+            <p class="text">Inglés</p>
+            <div class="container-section">
               <div class="skills ingles">95%</div>
             </div>
 
-            <h3>Alemán</h3>
-            <div class="container">
+            <p class="text">Alemán</p>
+            <div class="container-section">
               <div class="skills aleman">70%</div>
             </div>
           </div>
         </section>
-      </section>
 
-      <section class="ForthdMainContent"> 
+        <h2 class="title">Cursos</h2>
+        <hr>
         <section class="courses">
-          <h2 class="sectionTitle">Cursos</h2>
-          <hr class="sectionTitleRule">
           <article class="cursos">
-            <h3 class="sectionContentTitle"> 
-              Movile Apps Development | <span>Google Actívate</span></h3>
-            <h4 class="sectionContentSubTitle">Junio 2020 &#45; Agosto 2020</h4>
-            <h3 class="sectionContentTitle"> 
-              Curso SABRE | <span>CECATY 66</span></h3>
-            <h4 class="sectionContentSubTitle">Junio 2019</h4>
-            <h3 class="sectionContentTitle"> 
-              Workshop Intensivo Barista Arte Latte | <span>BaristaMex</span></h3>
-            <h4 class="sectionContentSubTitle">Febrero 2021</h4>
-            <h3 class="sectionContentTitle"> 
-              Guitarra Eléctrica | <span>Academia de Música Yamaha</span></h3>
-            <h4 class="sectionContentSubTitle">Agosto 2010 &#45; Actual</h4>
-            <h3 class="sectionContentTitle"> 
-              Introducción a Andorid Studio | <span>Coursera</span></h3>
-            <h4 class="sectionContentSubTitle">Agosto 2020 &#45; Noviembre 2020</h4>
-            <h3 class="sectionContentTitle"> 
-              Fotografía Digital | <span>LIFE ITESM CCM</span></h3>
-            <h4 class="sectionContentSubTitle">Agosto 2021 &#45; Diciembre 2021</h4>
-            <h3 class="sectionContentTitle"> 
-              Diseñando Páginas Web con Bootstrap 4 | <span>Coursera</span></h3>
-            <h4 class="sectionContentSubTitle">Febrero 2022</h4>
+            <p class="text"> 
+              Movile Apps Development | <span>Google Actívate</span></p>
+            <p class="sub-text">Junio 2020 &#45; Agosto 2020</p>
+            <p class="text"> 
+              Curso SABRE | <span>CECATY 66</span></p>
+            <p class="sub-text">Junio 2019</p>
+            <p class="text"> 
+              Workshop Intensivo Barista Arte Latte | <span>BaristaMex</span></p>
+            <p class="sub-text">Febrero 2021</p>
+            <p class="text"> 
+              Guitarra Eléctrica | <span>Academia de Música Yamaha</span></p>
+            <p class="sub-text">Agosto 2010 &#45; Actual</p>
+            <p class="text"> 
+              Introducción a Andorid Studio | <span>Coursera</span></p>
+            <p class="sub-text">Agosto 2020 &#45; Noviembre 2020</p>
+            <p class="text"> 
+              Fotografía Digital | <span>LIFE ITESM CCM</span></p>
+            <p class="sub-text">Agosto 2021 &#45; Diciembre 2021</p>
+            <p class="text"> 
+              Diseñando Páginas Web con Bootstrap 4 | <span>Coursera</span></p>
+            <p class="sub-text">Febrero 2022</p>
+          </article>
+        </section>
+
+        <h2 class="title">Proyectos</h2>
+        <hr>
+        <section class="projects">
+          <article class="proyectos">
+            <p class="text"> 
+              Movile Apps Development | <span>Google Actívate</span></p>
+            <p class="sub-text">Junio 2020 &#45; Agosto 2020</p>
+            <p class="text"> 
+              Curso SABRE | <span>CECATY 66</span></p>
+            <p class="sub-text">Junio 2019</p>
+            <p class="text"> 
+              Workshop Intensivo Barista Arte Latte | <span>BaristaMex</span></p>
+            <p class="sub-text">Febrero 2021</p>
+            <p class="text"> 
+              Guitarra Eléctrica | <span>Academia de Música Yamaha</span></p>
+            <p class="sub-text">Agosto 2010 &#45; Actual</p>
+            <p class="text"> 
+              Introducción a Andorid Studio | <span>Coursera</span></p>
+            <p class="sub-text">Agosto 2020 &#45; Noviembre 2020</p>
+            <p class="text"> 
+              Fotografía Digital | <span>LIFE ITESM CCM</span></p>
+            <p class="sub-text">Agosto 2021 &#45; Diciembre 2021</p>
+            <p class="text"> 
+              Diseñando Páginas Web con Bootstrap 4 | <span>Coursera</span></p>
+            <p class="sub-text">Febrero 2022</p>
           </article>
         </section>
       </section>
 
     </div>
 
-    <footer class="footer-index">
-      <hr>
-      <table>
-        <tr>
-          <td>
-            <p class="linkedin"><a href="https://www.linkedin.com/in/salom%C3%B3n-mart%C3%ADnez-7064181a9/">Elí Martínez - Perfil</a></p>
-          </td>
-          <td>
-            <p class="copy">2022  Copyrights - Todos los Derechos Reservados</p>
-          </td>
-          <td>
-            <p class="github"><a href="https://github.com/Salomon-mtz">Elí Martínez - GitHub</a></p>
-          </td>
-        </tr>
-      </table>
-    </footer>
+    <div class="container">
+      <footer>
+        <p class="text">2022  Copyrights - Todos los Derechos Reservados</p>
+      </footer>
+    </div>
+    
   </body>
 </html>
