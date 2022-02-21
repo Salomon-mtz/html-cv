@@ -9,6 +9,18 @@
     margin-top: 25px;
 }
 
+.fratellis{
+    max-width: 20%;
+}
+
+.pasumecha{
+    max-width: 25%;
+}
+
+.mg{
+    max-width: 100%;
+}
+
 /* footer */
 
 footer{
@@ -64,41 +76,43 @@ footer{
 /* main section languages */
 .español{
     width: 100%;
-    background-color: rgb(0, 117, 117);
+    background-color: rgb(0, 128, 128);
 }
 
 .ingles{
     width: 95%;
-    background-color: rgb(62, 255, 191);
+    background-color: rgb(0, 158, 105);
 }
 
 .aleman{
     width: 70%;
-    background-color: rgb(181, 255, 230);
+    background-color: rgb(0, 226, 151);
 }
 
 
 /* containers */
 
 .container{
-    margin: 0px 200px 0px 200px;
+    max-width: 80vw;
+    margin: 0px auto;
+    
 }
 
 .container-section{
-    width: 100%;
+    max-width: 100%;
     background-color: rgb(236, 235, 235);
 }
 
 .container-fratellis{
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .container-pasumecha{
-    max-width: 100px;
+    max-width: 100%;
 }
 
 .container-mg{
-    max-width: 400px;
+    max-width: 100%;
 }
 
 .container-mg{
