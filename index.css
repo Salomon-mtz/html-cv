@@ -21,6 +21,10 @@
     max-width: 100%;
 }
 
+.code{
+    max-width: 30%;
+}
+
 /* footer */
 
 footer{
@@ -115,6 +119,10 @@ footer{
     max-width: 100%;
 }
 
+.container-codeit{
+    max-width: 100%;
+}
+
 .container-mg{
     max-width: 300px;
 }
@@ -145,6 +153,10 @@ footer{
 
 .pasatiempo{
     margin: 10px 0px 0px 10px;
+}
+
+.grupos{
+    margin: 0px 0px 0px 100px;
 }
 
 
